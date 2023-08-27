@@ -12,7 +12,7 @@ def generate_vendedores(num_records):
     return vendedores
 
 # Gerar dados fictícios para a tabela de dimensão "Vendedores"
-num_records = 20000
+num_records = 1000
 vendedores_data = generate_vendedores(num_records)
 
 # Exportar dados para um arquivo CSV
