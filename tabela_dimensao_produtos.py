@@ -17,7 +17,7 @@ def generate_produtos_informatica(num_records):
     return produtos
 
 # Gerar dados fictícios para a tabela de dimensão "Produtos"
-num_records = 20000
+num_records = 200
 produtos_data = generate_produtos_informatica(num_records)
 
 # Exportar dados para um arquivo CSV
